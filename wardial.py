@@ -237,7 +237,7 @@ def wardial(hosts, **kwargs):
     lst = []
 
     for i,x in enumerate(hosts):
-        if lst[i] == True:
+        if hosts_out[i] == True:
             lst.append(x)
 
     return lst
